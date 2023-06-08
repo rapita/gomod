@@ -1,7 +1,11 @@
 package two
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/rapita/gomod/header"
+)
 
 func Two() {
+	header.Header()
 	fmt.Println("two")
 }
